@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<pubdate>Various; see PDF documentation or file date</pubdate>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo>
+					<sername>GMI Geodata (GMMS and/or WorldGeoDataSets.com)</sername>
+					<issue>Various; see included PDF documentation</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Colorado Springs, Colorado, USA</pubplace>
+					<publish>Global Mapping International</publish>
+				</pubinfo>
+				<onlink></onlink>
+				<origin>Global Mapping International</origin><title>Language areas</title><ftname Sync="TRUE">langa</ftname></citeinfo>
+		</citation>
+		<descript>
+			<supplinf>Copyright (c)2011 Global Mapping International. All Rights Reserved. Use permitted only subject to explicit written license</supplinf>
+			<langdata Sync="TRUE">en</langdata><abstract>Language areas</abstract><purpose>REQUIRED: A summary of the intentions with which the data set was developed.</purpose></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>See PDF release documentation</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-179.999999</westbc>
+				<eastbc Sync="TRUE">180.000000</eastbc>
+				<northbc Sync="TRUE">75.997413</northbc>
+				<southbc Sync="TRUE">-55.723325</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-179.999999</leftbc><rightbc Sync="TRUE">180.000000</rightbc><bottombc Sync="TRUE">-55.723325</bottombc><topbc Sync="TRUE">75.997413</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt><themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey></theme>
+		</keywords>
+		<accconst>Generally available only to specific nonprofit organizations a part of the Global Ministry Mapping System, or under specific license from Global Mapping International</accconst>
+		<useconst>See World GeoDatasets or Global Ministry Mapping System End-User License Agreement or other license agreement for use constraints. Use is prohibited except under license.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>William E. Dickson</cntper>
+					<cntorg>Global Mapping International</cntorg>
+				</cntperp>
+				<cntpos>Vice President</cntpos>
+				<cntvoice>+1-719-531-3599</cntvoice>
+				<cntfax>+1-719-548-7459</cntfax>
+				<cntemail>permissions@gmi.org</cntemail>
+				<hours>0830-1700 MT (GMT -7) M-F</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.4000</native><natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo><srccite><citeinfo><title>Vector Map Level 0, Edition 5</title><origin>Global Mapping International</origin><pubdate>Various; see PDF documentation or file date</pubdate><edition>5</edition><onlink>www.geoengine.nima.mil</onlink></citeinfo></srccite><srcscale>1000000</srcscale><typesrc>CD-ROM</typesrc><srccitea>VMAP 0 Ed. 5</srccitea><srccontr>Feature geometry and attributes from VMAP 0 Ed. 5; conversion, tile merging, language data, and political updates by GMI.</srccontr></srcinfo><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\Metadata\dcw metadata.xml</srcused><date Sync="TRUE">20030725</date><time Sync="TRUE">14175400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20060317</date><time Sync="TRUE">11243300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20060317</date><time Sync="TRUE">13263900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">G:\Products\GMMS320\Arc\Work\DCW_Basemap\lang\langa</srcused><date Sync="TRUE">20061027</date><time Sync="TRUE">12025000</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">G:\Products\GMMS320\Arc\Work\DCW_Basemap\lang\langa</srcused><date Sync="TRUE">20061107</date><time Sync="TRUE">12012000</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\GMMSdata-Arc\DCW_Basemap\lang\langaCopy</srcused><date Sync="TRUE">20061107</date><time Sync="TRUE">16072400</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="buffer50km"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="buffer50km">
+			<enttyp>
+				<enttypl Sync="TRUE">buffer50km</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">LEFT_FID</attrlabl><attalias Sync="TRUE">LEFT_FID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">RIGHT_FID</attrlabl><attalias Sync="TRUE">RIGHT_FID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">BUFF_DIST</attrlabl><attalias Sync="TRUE">BUFF_DIST</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ORIG_FID</attrlabl><attalias Sync="TRUE">ORIG_FID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">borderArea</attrlabl><attalias Sync="TRUE">borderArea</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Global Mapping International</cntorg>
+					<cntper>William E. Dickson</cntper>
+				</cntorgp>
+				<cntpos>Vice President</cntpos>
+				<cntvoice>+1-719-531-3599</cntvoice>
+				<cntfax>+1-719-548-7459</cntfax>
+				<cntemail>permissions@gmi.org</cntemail>
+				<hours>0830-1700 MT (GMT -7) M-F</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Distributed to nonprofit Christian ministries as part of the Global Ministry Mapping System www.gmi.org/products/gmms; may also be available as part of one or more datasets offered on www.worldgeodatasets.com</resdesc>
+		<distliab>Redistribution prohibited except as specifically permitted under license received from Global Mapping International. If you have received this data without such a license, discontinue use and contact: permissions@gmi.org to obtain necessary license.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.022</transize>
+					<dssize Sync="TRUE">32.697</dssize></digtinfo>
+			</digform>
+			<fees>Varies</fees>
+			<ordering>See www.worldgeodatasets.com. Christian ministries see http://www.gmi.org/products/gmms for information on organizational qualifications and ordering</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110523</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Global Mapping International</cntorg>
+					<cntper>William E. Dickson</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 63719</address>
+					<city>Colorado Springs</city>
+					<state>CO</state>
+					<postal>80962-3719</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>+1-719-531-3599</cntvoice>
+				<cntfax>+1-719-548-7459</cntfax>
+				<cntemail>permissions@gmi.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><ModDate>20170316</ModDate><ModTime>14285400</ModTime><CreaDate>20210628</CreaDate><CreaTime>14181000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20170316</SyncDate><SyncTime>14285400</SyncTime><DataProperties><itemProps><itemName Sync="TRUE">buffer50km</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">-179.999999</westBL><eastBL Sync="TRUE">180.000000</eastBL><southBL Sync="TRUE">-55.723325</southBL><northBL Sync="TRUE">75.997413</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\Mac\Dropbox\Academics\Research\LingDist_Geog\Submission\MS20200547_Files\3 Replication Package\ShapeFiles\Fig1\Buffer_Zone</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;World_Goode_Homolosine_Land&amp;quot;,GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Goode_Homolosine&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,0.0],PARAMETER[&amp;quot;Option&amp;quot;,1.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;Esri&amp;quot;,54052]]&lt;/WKT&gt;&lt;XOrigin&gt;-20037700&lt;/XOrigin&gt;&lt;YOrigin&gt;-8683400&lt;/YOrigin&gt;&lt;XYScale&gt;224756315.71340498&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;54052&lt;/WKID&gt;&lt;LatestWKID&gt;54052&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml><projcsn Sync="TRUE">World_Goode_Homolosine_Land</projcsn></coordRef><copyHistory><copy source="W:\Academics\Research\LingDist_Geog\Submission\3 Documents\ShapeFiles\Buffer_Zone" dest="\\Mac\Dropbox\Academics\Research\LingDist_Geog\Submission\MS20200547_Files\3 Replication Package\ShapeFiles\Fig1\Buffer_Zone" date="20210628" time="14560900"></copy></copyHistory><lineage><Process ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20150828" Time="162637">Project U:\Papers\LingDist_Geog\ArcData\langa.shp U:\Papers\LingDist_Geog\ArcData\langa_goode.shp PROJCS['World_Goode_Homolosine_Land',GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Goode_Homolosine'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',0.0],PARAMETER['Option',1.0],UNIT['Meter',1.0]] # GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process><Process ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20150828" Time="162637">AddField U:\Papers\LingDist_Geog\ArcData\langa_goode.shp arc_id LONG # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150828" Time="162638">CalculateField U:\Papers\LingDist_Geog\ArcData\langa_goode.shp arc_id "[FID] + 1" VB #</Process><Process Name="Feature Class to Feature Class" ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20150916" Time="154901">FeatureClassToFeatureClass U:\Papers\LingDist_Geog\ArcData\langa_goode.shp U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb lang_goode_integrate100m # "ID "ID" true true false 7 Text 0 0 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,ID,-1,-1;NAME_PROP "NAME_PROP" true true false 40 Text 0 0 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,NAME_PROP,-1,-1;C1 "C1" true true false 33 Text 0 0 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,C1,-1,-1;LMP_POP1 "LMP_POP1" true true false 11 Double 0 11 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,LMP_POP1,-1,-1;G "G" true true false 225 Text 0 0 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,G,-1,-1;LANG_ISO "LANG_ISO" true true false 3 Text 0 0 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,LANG_ISO,-1,-1;INSIDE_X "INSIDE_X" true true false 19 Double 0 0 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,INSIDE_X,-1,-1;INSIDE_Y "INSIDE_Y" true true false 19 Double 0 0 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,INSIDE_Y,-1,-1;arc_id "arc_id" true true false 9 Long 0 9 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,arc_id,-1,-1;AREA_sq_km "AREA_sq_km" true true false 19 Double 3 18 ,First,#,U:\Papers\LingDist_Geog\ArcData\langa_goode.shp,AREA_sq_km,-1,-1" #</Process><Process Name="Integrate" ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\Integrate" Date="20150916" Time="154932">Integrate "U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m #" "100 Meters"</Process><Process Name="Polygon To Line" ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\PolygonToLine" Date="20150916" Time="154953">PolygonToLine U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m_line IDENTIFY_NEIGHBORS</Process><Process Name="Dissolve" ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20150916" Time="155017">Dissolve U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m_line U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m_line_dissolve LEFT_FID;RIGHT_FID # MULTI_PART DISSOLVE_LINES</Process><Process Name="Buffer (2)" ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Analysis Tools.tbx\Buffer" Date="20150916" Time="155326">Buffer U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m_line_dissolve U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m_buffer50km "50 Kilometers" FULL ROUND NONE #</Process><Process ToolSource="c:\users\andrew dickens\documents\arcgis\desktop10.2\ArcToolbox\Toolboxes\Analysis Tools.tbx\Select" Date="20150921" Time="191446">Select U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m_buffer50km U:\Papers\LingDist_Geog\ArcData\Dyad_Borders.gdb\lang_goode_integrate100m_buffer50km_select "LEFT_FID &lt;&gt; - 1 AND LEFT_FID &lt;&gt; RIGHT_FID"</Process></lineage></DataProperties><ArcGISstyle>ISO 19139 Metadata Implementation Specification</ArcGISstyle><ArcGISFormat>1.0</ArcGISFormat></Esri><mdDateSt Sync="TRUE">20170316</mdDateSt><dataIdInfo><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="CAN" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">buffer50km</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-179.999999</westBL><eastBL Sync="TRUE">180</eastBL><northBL Sync="TRUE">75.997413</northBL><southBL Sync="TRUE">-55.723325</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-179.999999</westBL><eastBL Sync="TRUE">180</eastBL><northBL Sync="TRUE">75.997413</northBL><southBL Sync="TRUE">-55.723325</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-179.999999</westBL><eastBL Sync="TRUE">180.000000</eastBL><northBL Sync="TRUE">75.997413</northBL><southBL Sync="TRUE">-55.723325</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="CAN" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\BARNABAS\geolib\Products\GMMS_10.0\Work\DCW_Basemap\lang\langa.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">32.697</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="54052">GCS_WGS_1984</identCode><idCodeSpace Sync="TRUE">Esri</idCodeSpace><idVersion Sync="TRUE">9.2.0</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="buffer50km"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo></metadata>
