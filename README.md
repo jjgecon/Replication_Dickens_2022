@@ -8,8 +8,8 @@ This repository replicates Figure 1 and Table 1 of Dicken (2022) using Python in
 
 To view the notebooks you can access the Deepnote projects:
 
-- [Report Tables and Figures](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/1-Report-Tables-and-Figures-2158a300-6955-4725-92f2-79476c32a378/notebook/Replication_report_fig_tables-580a37d352a541e68e5b14929b7501b0) 
-    - This notebook produces all the figures and tables found in the report in HTML format.
+- [Report Tables and Figures](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/1-Report-Tables-and-Figures-2158a300-6955-4725-92f2-79476c32a378) 
+    - This notebook produces all the figures and tables found in the report.
 
-- [Construction of the Alternative Data](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/2-Construction-of-the-Alternative-Databeses-4a945f27-2c4c-4244-8f3b-ab6dff812a2f)
+- [Construction of the Alternative Data](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/2-Construction-of-the-Alternative-Data-4a945f27-2c4c-4244-8f3b-ab6dff812a2f)
     - This project uses the Ethnologe v16 and v17 to reconstruct buffer zones used in the replication report. Due to copy rights issues of the Ethnologe, most of the notebooks can't be executed. However, you can view how we contructed the data and each cell output.
