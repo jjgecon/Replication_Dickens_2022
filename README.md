@@ -1,7 +1,15 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jjgecon/Replication_Dickens_2022/HEAD) [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466)
 # [Replication of Dickens (2022) "Understanding Ethnolinguistic Differences: The Roles of Geography and Trade"](https://econpapers.repec.org/paper/zbwi4rdps/62.htm)
 
-[Dickens (2022)](https://doi.org/10.1093/ej/ueab065) studies the role of trade on long-run inter-ethnic linguistic differences. He establishes that neighboring ethnolinguistic groups have smaller (lexicostatistical) linguistic distances when there is a larger agricultural productivity variation between them. Specifically, he establishes that pre-1500 land productivity variation (CSI SD) and its change due to the Columbian Exchange in the post-1500 (CSI SD CHANGE) era decreased linguistic distances between groups. In what can be considered his main specification, which includes geographical controls, spatial controls, and language family fixed effects (Table 1 column 5), he estimates that a one standard deviation increase in the change in land productivity variation (post-1500) decreases linguistic distances by 0.11 standard deviations (p-value < 0.01) and a one standard deviation increase in land productivity variation (pre-1500) decreases linguistic distances by 0.06 standard deviations (p-value = 0.12). We conduct a direct replication of the paper by (i) reconstructing the main independent variables using the same original sources and following the procedures explained in the original study, (ii) using an updated version of the linguistic map (Ethnologue v17 instead of v16), and (iii) constructing alternative measures of inter-ethnic potential gains from trade. Our results basically confirm the sign, magnitude, and statistical significance of the point estimates in the original study.
+----
+
+This repository contains the notebooks, data, and other material we created for the replication of [Dickens, A. (2021) Understanding ethnolinguistic differences: The roles of geography and trade, The Economic Journal 132(643), 953–980.](https://doi.org/10.1093/ej/ueab065). It is part of a meta-analysis of replication in the social sciences.
+
+----
+
+## Abstract
+
+[Dickens (2022)](https://doi.org/10.1093/ej/ueab065) studies the role of trade on long-run inter-ethnic linguistic differences. He establishes that neighboring ethnolinguistic groups have smaller (lexicostatistical) linguistic distances when there is a larger agricultural productivity variation between them. Specifically, he establishes that pre-1500 land productivity variation (CSI SD) and its change due to the Columbian Exchange in the post-1500 (CSI SD CHANGE) era decreased linguistic distances between groups. In what can be considered his main specification, which includes geographical controls, spatial controls, and language family fixed effects (Table 1 column 5), he estimates that a one standard deviation increase in the change in land productivity variation (post-1500) decreases linguistic distances by 0.11 standard deviations (p-value < 0.01) and a one standard deviation increase in land productivity variation (pre-1500) decreases linguistic distances by 0.06 standard deviations (p-value = 0.12). We conduct a direct replication of the paper by (i) reconstructing the main independent variables using the same original sources and following the procedures explained in the original study, (ii) using an updated version of the linguistic map (Ethnologue v17 instead of v16), and (iii) constructing alternative measures of inter-ethnic potential gains from trade. Our results basically confirm the sign, magnitude, and statistical significance of the point estimates in the original study. We provide a open source computational framework to replicate our replication, which can be used for other replications, or for economic research.
 
 This repository replicates Figure 1 and Table 1 of Dicken (2022) using Python instead of Stata.
 
@@ -12,3 +20,13 @@ To view the notebooks you can access the Deepnote projects:
 
 - [Construction of the Alternative Data](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/2-Construction-of-the-Alternative-Data-4a945f27-2c4c-4244-8f3b-ab6dff812a2f)
     - This project uses the Ethnologe v16 and v17 to reconstruct buffer zones used in the replication report. Due to copyright issues of the Ethnologue, most of the notebooks can't be executed. However, you can view how we constructed the data and each cell output.
+
+# Copyright 
+
+&copy; Javier Gonzalez and Ömer Özak (2023)
+
+This code and data is provided under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License](https://creativecommons.org/licenses/by-sa/4.0/). 
+
+![](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)
+
+[<img src="https://github.com/measuring-culture/Expanding-Measurement-Culture-Facebook-JRSI/blob/main/pics/SMUlogowWordmarkRB.jpg?raw=true" width="250">](http://omerozak.com)
