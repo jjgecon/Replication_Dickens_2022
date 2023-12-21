@@ -21,6 +21,8 @@ To view the notebooks you can access the Deepnote projects:
 - [Construction of the Alternative Data](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/2-Construction-of-the-Alternative-Data-4a945f27-2c4c-4244-8f3b-ab6dff812a2f)
     - This project uses the Ethnologe v16 and v17 to reconstruct buffer zones used in the replication report. Due to copyright issues of the Ethnologue, most of the notebooks can't be executed. However, you can view how we constructed the data and each cell output.
 
+We have also provided a [Jupyter Notebook](https://github.com/jjgecon/Replication_Dickens_2022/tree/main/julia/julia_Dickens.ipynb) that replicates Tables 1 to 4 and Figures 8 and 9 of Dicken (2022) using Julia instead of Stata.
+
 # Copyright 
 
 &copy; Javier Gonzalez and Ömer Özak (2023)
