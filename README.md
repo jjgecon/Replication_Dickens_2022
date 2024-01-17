@@ -30,7 +30,7 @@ To use our notebooks, you can:
 
 Given its ease and speed, we suggest starting in [Deepnote](https://deepnote.com/join-team?token=1caea1e0f7cc466).
 
-For a guide on how to create an [Deepnote](https://deepnote.com/) you can view the following [guide](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/deepnote/markdown_instructions/create_deepnote_account.md).
+For a guide on how to create a [Deepnote](https://deepnote.com/) account you can view the following [guide](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/deepnote/markdown_instructions/create_deepnote_account.md).
 
 To view and execute our code you can access our [Deepnote project](https://deepnote.com/join-team?token=1caea1e0f7cc466) or its notebooks directly:
 
