@@ -5,22 +5,27 @@
 ## Step-by-step guide
 
 1.  Head over to [Deepnote](https://deepnote.com/) and click on [Get Started](https://deepnote.com/sign-up).  
+
     ![1-Deepnote-website.png](canvas_uploaded_img/1-Deepnote-website.png)  
       
     
 2.  Click. on Sign up with email.  
+
     ![2-Deepnote-signup.png](canvas_uploaded_img/2-Deepnote-signup.png)  
       
     
 3.  Sign up using your email address. **If you use an .EDU email we recommend using it**. Make sure to follow the instructions and prove you are a human!  
+
     ![3-Deepnote-signup-SMU-email.png](canvas_uploaded_img/3-Deepnote-signup-SMU-email.png)  
       
     
 4.  The system will send you an email to verify your account. Open your email inbox and click on the "Sign in now" image/button in the email from Deepnote. If you did not get one, check your Junk Mail Folder.  
+
     ![Sign in now](canvas_uploaded_img/4-Deepnote-signup-email.png)  
       
     
 5.  Fill out your personal information to be used with the account  
+
     ![Sign up information](canvas_uploaded_img/5-Deepnote-signup-info.png)  
 
 You should be all set to start using Deepnote. To log in, you will use your email and use the link you get in your mail's inbox. No passwords or anything (so far). 
@@ -42,26 +47,32 @@ If you created your account with a .EDU email you can access the educational ben
 FYI, you can use your GMAIL account if you prefer in step 2 in the *Step-by-step guide* section. Then use your institutional email account to verify your educational status and still get the free tools and account upgrades. The only difference (as far as I can tell) is how you log in.
 
 1.  Click on **Billing & usage**.  
+
     ![Click billing & usage](canvas_uploaded_img/12-Deepnote-click-billing-and-usage.png)  
       
     
 2.  Click on **Change plan**.  
+
     ![Change plan](canvas_uploaded_img/12-Deepnote-billing-and-usage.png)  
       
     
 3.  Now, you should be on the **Upgrade** page. Click on **Upgrade to Education**.  
+
     ![Upgrade to education](canvas_uploaded_img/13-Deepnote-upgrade-education.png)  
       
     
 4.  Use your YOUREMAIL@SMU.EDU to fill out the required information.  
+
     ![Add you education email account](canvas_uploaded_img/14-Deepnote-education-plan-email.png)  
       
     
 5.  The system will send you another verification email. Click on **Verify my email**.  
+
     ![Verification email](canvas_uploaded_img/15-Deepnote-verification-email.png)  
       
     
 6.  Now, you should see a **Welcome to Education Plan** message.  
+
     ![Welcome to education](canvas_uploaded_img/16-Deepnote-welcome-education-plan.png)  
 
 If you want to find out more about the [Educational Plan](https://deepnote.com/docs/edu-verification) or have issues, check out their [information website](https://deepnote.com/docs/edu-verification).  You can also chat with them if you need support or ask questions in their [community forum](https://community.deepnote.com/home).
