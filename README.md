@@ -5,14 +5,14 @@
 
 This repository contains the paper, notebooks, data, and other material we created for our replication of [Dickens, A. (2021) Understanding ethnolinguistic differences: The roles of geography and trade, The Economic Journal 132(643), 953–980.](https://doi.org/10.1093/ej/ueab065). It is part of a meta-analysis of replication issues in the social sciences.
 
-----
 
 ## Abstract
 
-[Dickens (2022)](https://doi.org/10.1093/ej/ueab065) studies the role of trade on long-run inter-ethnic linguistic differences. He establishes that neighboring ethnolinguistic groups have smaller (lexicostatistical) linguistic distances when there is a larger agricultural productivity variation between them. Specifically, he establishes that pre-1500 land productivity variation and its change due to the Columbian Exchange in the post-1500 era decreased linguistic distances between groups. In what can be considered his main specification, which includes geographical controls, spatial controls, and language family fixed effects (Table 1 column 5), he estimates that a one standard deviation increase in the change in land productivity variation (post-1500) decreases linguistic distances by 0.11 standard deviations (p-value < 0.01) and a one standard deviation increase in land productivity variation (pre-1500) decreases linguistic distances by 0.06 standard deviations (p-value = 0.12). Since his approach may confound inter- and intra-ethnic trade, we conduct a direct replication of the paper by (i) reconstructing the main independent variables using the same original sources and following the procedures explained in the original study, (ii) using an updated version of the linguistic map (Ethnologue v17 instead of v16), and (iii) constructing alternative measures of inter-ethnic potential gains from trade. Our results confirm the sign, magnitude, and statistical significance of the point estimates in the original study while highlighting the difficulty of disentangling intra- and inter-ethnic trade. We also provide an open-source computational framework to replicate his results and our replication. Our tools can be used by others to produce original and replicable economic research.
+We revisit the role of trade on long-run inter-ethnic linguistic differences. [Dickens (2022)](https://doi.org/10.1093/ej/ueab065) hypothesized that neighboring languages are more similar when agriculture provides potential gains from \emph{inter-ethnic} trade. Since his empirical approach confounds inter- and intra-ethnic trade, we replicate his main analysis using improved measures of inter-ethnic gains from trade. Our results confirm the role of trade in inter-ethnic linguistic differences while showing the difficulty of disentangling the role of inter- vs intra-ethnic trade. We also provide an open-source computational framework to replicate both sets of results, which others can use to produce original replicable economic research.
 
 
 # Replication Computational Framework
+--
 
 We provide an open-source computational framework to replicate our replication, which can easily be used by others for other replications, or economic research in general. The repository contains all the notebooks we used to perform the replication. 
 
@@ -20,9 +20,9 @@ As part of the replication, we show how to create  Figure 1 and Table 1 of Dicke
 
 To use our notebooks, you can:
 
-* **(Easy)** Click on [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466) and join the [project's workspace](https://deepnote.com/join-team?token=1caea1e0f7cc466). You will be able to run the code on the web. If you want to edit the code for your own use, you can clone the workspace (you will need to register, which is free - especially if you have an educational email account)
-* **(Easy)** Click on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jjgecon/Replication_Dickens_2022/HEAD) 
-* **(A bit more complex)** Clone this repository, and install our [environment](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/environment.yml) using conda. (Instructions on how to do that can be found [here](https://econgrowth.github.io/pages/Install%20Anaconda.html))
+* **(Easy - Online no install required)** Click on [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466) and join the [project's workspace](https://deepnote.com/join-team?token=1caea1e0f7cc466). You will be able to run the code on the web. If you want to edit the code for your own use, you can clone the workspace (you will need to register, which is free - especially if you have an educational email account)
+* **(Easy - Online no install required)** Click on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jjgecon/Replication_Dickens_2022/HEAD) 
+* **(A bit more complex - needs installation and runs on your computer)** Clone this repository, and install our [environment](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/environment.yml) using conda. (Instructions on how to do that can be found [here](https://econgrowth.github.io/pages/Install%20Anaconda.html))
 
 ## Recommended Approach [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466)
 
