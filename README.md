@@ -1,5 +1,5 @@
 [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jjgecon/Replication_Dickens_2022/HEAD)
-# [Replication of Dickens (2022) "Understanding Ethnolinguistic Differences: The Roles of Geography and Trade"](https://econpapers.repec.org/paper/zbwi4rdps/62.htm)
+# Trade and Ethnolinguistic Differences: A Replication and Extension
 
 ----
 
