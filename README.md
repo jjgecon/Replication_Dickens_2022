@@ -1,7 +1,6 @@
 [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jjgecon/Replication_Dickens_2022/HEAD)
 # Trade and Ethnolinguistic Differences: A Replication and Extension
 
-----
 
 This repository contains the paper, notebooks, data, and other material we created for our replication of [Dickens, A. (2021) Understanding ethnolinguistic differences: The roles of geography and trade, The Economic Journal 132(643), 953–980.](https://doi.org/10.1093/ej/ueab065). It is part of a meta-analysis of replication issues in the social sciences.
 
@@ -12,7 +11,7 @@ We revisit the role of trade on long-run inter-ethnic linguistic differences. [D
 
 
 # Replication Computational Framework
---
+
 
 We provide an open-source computational framework to replicate our replication, which can easily be used by others for other replications, or economic research in general. The repository contains all the notebooks we used to perform the replication. 
 
