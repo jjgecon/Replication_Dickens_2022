@@ -76,7 +76,7 @@ dependencies:
   - cycler
   - dask-core
   - dask-geopandas
-  - distributed
+  - distributed>=2021.06.0
   - dav1d
   - dbus
   - debugpy
