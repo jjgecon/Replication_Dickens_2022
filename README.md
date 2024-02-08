@@ -7,7 +7,7 @@ This repository contains the paper, notebooks, data, and other material we creat
 
 ## Abstract
 
-We revisit the role of trade on long-run inter-ethnic linguistic differences. [Dickens (2022)](https://doi.org/10.1093/ej/ueab065) hypothesized that neighboring languages are more similar when agriculture provides potential gains from \emph{inter-ethnic} trade. Since his empirical approach confounds inter- and intra-ethnic trade, we replicate his main analysis using improved measures of inter-ethnic gains from trade. Our results confirm the role of trade in inter-ethnic linguistic differences while showing the difficulty of disentangling the role of inter- vs intra-ethnic trade. We also provide an open-source computational framework to replicate both sets of results, which others can use to produce original replicable economic research.
+We revisit the role of trade on long-run inter-ethnic linguistic differences. [Dickens (2022)](https://doi.org/10.1093/ej/ueab065) hypothesized that neighboring languages are more similar when agriculture provides potential gains from *inter-ethnic trade*. Since his empirical approach confounds inter- and intra-ethnic trade, we replicate his main analysis using improved measures of inter-ethnic gains from trade. Our results confirm the role of trade in inter-ethnic linguistic differences while showing the difficulty of disentangling the role of inter- vs intra-ethnic trade. We also provide an open-source computational framework to replicate both sets of results, which others can use to produce original replicable economic research.
 
 
 # Replication Computational Framework
