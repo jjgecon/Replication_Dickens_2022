@@ -61,7 +61,7 @@ FYI, you can use your GMAIL account if you prefer in step 2 in the *Step-by-step
     ![Upgrade to education](canvas_uploaded_img/13-Deepnote-upgrade-education.png)  
       
     
-4.  Use your YOUREMAIL@SMU.EDU to fill out the required information.  
+4.  Use your .EDU email to fill out the required information.  
 
     ![Add you education email account](canvas_uploaded_img/14-Deepnote-education-plan-email.png)  
       
