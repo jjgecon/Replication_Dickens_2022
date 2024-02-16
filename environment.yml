@@ -5,7 +5,8 @@ dependencies:
   - python=3.10 
   - pandas 
   - geopandas 
-  - rpy2 
+  - numpy
+  #- rpy2 
   - statsmodels 
   - seaborn 
   - geoplot 
