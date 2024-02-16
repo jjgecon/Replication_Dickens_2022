@@ -16,14 +16,12 @@ dependencies:
   - openpyxl 
   - pandas-datareader 
   - xlrd 
-  - dask 
-  - dask-core 
-  - dask-geopandas 
+  #- dask 
+  #- dask-core 
+  #- dask-geopandas 
   - georasters 
   - stargazer 
   - scipy
   - pip:
       - stargazer
       - binsreg 
-      - ipystata 
-      - git+https://github.com/ozak/google-drive-downloader
