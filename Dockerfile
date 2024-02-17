@@ -24,7 +24,7 @@ RUN mamba install -y -c conda-forge -c r --override-channels python=3.10 pip geo
 WORKDIR /work
 
 # Clone your Git repository
-RUN git clone https://github.com/jjgecon/Replication_Dickens_2022.git
+RUN git clone https://github.com/jjgecon/Replication_Dickens_2022.git .
 
 # Expose the port JupyterLab will run on (default is 9000)
 EXPOSE 9000
