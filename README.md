@@ -24,6 +24,7 @@ To use our notebooks, you can:
 
 * **(Easy - Online no install required)** Click on [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466) and join the [project's workspace](https://deepnote.com/join-team?token=1caea1e0f7cc466). You will be able to run the code on the web. If you want to edit the code for your own use, you can clone the workspace (you will need to register, which is free - especially if you have an educational email account)
 * **(Easy - Online no install required)** Click on [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jjgecon/Replication_Dickens_2022/HEAD) 
+* **(A bit more complex - needs installation and runs on your computer)** Follow these [instructions](https://econgrowth.github.io/pages/Docker.html) to download and install Docker Desktop. The docker image for this project is `jjgecon/replication-dickens` and not `omerozak/econgrowth-binder`.
 * **(A bit more complex - needs installation and runs on your computer)** Clone this repository, and install our [environment](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/environment.yml) using conda. (Instructions on how to do that can be found [here](https://econgrowth.github.io/pages/Install%20Anaconda.html))
 
 ## Recommended Approach [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/join-team?token=1caea1e0f7cc466)
