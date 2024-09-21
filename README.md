@@ -29,9 +29,9 @@ To use our notebooks, you can:
 
 ## Recommended Approach [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/Indexnotebook-5c552adf-775f-43ed-b469-14dea99636ad/notebook/Notebook%201-591adace2c954b4eb31edde693125493)
 
-Given its ease and speed, we suggest starting in [Deepnote](https://deepnote.com/join-team?token=1caea1e0f7cc466).
+Given its ease and speed, we suggest starting in [Deepnote](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/Indexnotebook-5c552adf-775f-43ed-b469-14dea99636ad/notebook/Notebook%201-591adace2c954b4eb31edde693125493).
 
-For a guide on how to create a [Deepnote](https://deepnote.com/) account you can view the following [guide](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/deepnote/markdown_instructions/create_deepnote_account.md).
+For a guide on how to create a [Deepnote](https://deepnote.com/) account, you can view the following [guide](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/deepnote/markdown_instructions/create_deepnote_account.md).
 
 To view and execute our code you can access our notebooks directly:
 
