@@ -43,7 +43,7 @@ To view and execute our code you can access our notebooks directly:
 
 # Copyright 
 
-&copy; Javier Gonzalez and Ömer Özak (2023)
+&copy; Javier Gonzalez and Ömer Özak (2024)
 
 This code and data is provided under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License](https://creativecommons.org/licenses/by-sa/4.0/). 
 
