@@ -1,6 +1,7 @@
-name: EconGrowthUG
+name: ReplicationDickens
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - _libgcc_mutex
   - _openmp_mutex
@@ -10,7 +11,10 @@ dependencies:
   - alsa-lib
   - amply
   - aom
+  - argon2-cffi
+  - argon2-cffi-bindings
   - asttokens
+  - async-lru
   - attr
   - attrs
   - aws-c-auth
@@ -26,12 +30,14 @@ dependencies:
   - aws-checksums
   - aws-crt-cpp
   - aws-sdk-cpp
+  - babel
   - backcall
   - backports
   - backports.functools_lru_cache
   - backports.zoneinfo
   - beautifulsoup4
   - binutils_impl_linux-64
+  - bleach
   - blosc
   - boost-cpp
   - branca
@@ -80,8 +86,10 @@ dependencies:
   - dbus
   - debugpy
   - decorator
+  - defusedxml
   - deprecation
   - descartes
+  - distributed
   - docopt
   - docutils
   - entrypoints
@@ -139,6 +147,7 @@ dependencies:
   - harfbuzz
   - hdf4
   - hdf5
+  - heapdict
   - html5lib
   - icu
   - idna
@@ -158,8 +167,18 @@ dependencies:
   - jinja2
   - joblib
   - json-c
+  - json5
+  - jsonschema
+  - jsonschema-specifications
+  - jupyter-lsp
   - jupyter_client
   - jupyter_core
+  - jupyter_events
+  - jupyter_server
+  - jupyter_server_terminals
+  - jupyterlab
+  - jupyterlab_pygments
+  - jupyterlab_server
   - jupyterlab_widgets
   - jxrlib
   - kaleido-core
@@ -292,23 +311,29 @@ dependencies:
   - matplotlib-inline
   - mercantile
   - mgwr
+  - mistune
   - mizani
   - momepy
   - mpc
   - mpfr
   - mpg123
   - mpmath
+  - msgpack-python
   - munch
   - munkres
   - mysql-common
   - mysql-libs
   - nb_conda_kernels
+  - nbclient
+  - nbconvert
+  - nbformat
   - ncurses
   - nest-asyncio
   - nettle
   - networkx
   - nltk
   - nodejs
+  - notebook-shim
   - nspr
   - nss
   - numba
@@ -321,10 +346,12 @@ dependencies:
   - openpyxl
   - openssl
   - orc
+  - overrides
   - p11-kit
   - packaging
   - pandas
   - pandas-datareader
+  - pandocfilters
   - pango
   - param
   - parso
@@ -349,6 +376,7 @@ dependencies:
   - poppler-data
   - postgresql
   - proj
+  - prometheus_client
   - prompt-toolkit
   - prompt_toolkit
   - psutil
@@ -377,19 +405,23 @@ dependencies:
   - pysocks
   - python
   - python-dateutil
+  - python-fastjsonschema
+  - python-json-logger
   - python-kaleido
+  - python-lmdb
   - python_abi
   - pytz
   - pywavelets
+  - pyyaml
   - pyzmq
   - qt-main
   - quantecon
   - r-base
-  - r-boot
+  - r-boot3_28.1
   - r-curl
-  - r-dagitty
+  - r-dagitty3_1
   - r-jsonlite
-  - r-mass
+  - r-mass3_60
   - r-rcpp
   - r-v8
   - rasterio
@@ -398,12 +430,16 @@ dependencies:
   - rdma-core
   - re2
   - readline
+  - referencing
   - regex
   - reproc
   - reproc-cpp
   - requests
   - retrying
+  - rfc3339-validator
+  - rfc3986-validator
   - rocm-smi
+  - rpds-py
   - rtree
   - ruamel.yaml
   - ruamel.yaml.clib
@@ -415,19 +451,22 @@ dependencies:
   - seaborn-base
   - sed
   - segregation
+  - send2trash
   - setuptools
   - shapely
   - simplejson
   - sip
   - six
   - snappy
+  - sniffio
   - snuggs
-  - soupsieve
+  - sortedcontainers
+  - soupsievepost1
   - spaghetti
   - spatialpandas
   - spglm
   - spint
-  - splot
+  - splotpost1
   - spopt
   - spreg
   - spvcm
@@ -439,10 +478,13 @@ dependencies:
   - sympy
   - sysroot_linux-64
   - tbb
+  - tblib
   - tenacity
+  - terminado
   - threadpoolctl
   - tifffile
   - tiledb
+  - tinycss2
   - tk
   - tktable
   - tobler
@@ -452,18 +494,17 @@ dependencies:
   - tornado
   - tqdm
   - traitlets
-  - typing-extensions
-  - typing_extensions
-  - tzcode
-  - tzdata
+  - tzcode=2023c
+  - tzdata=2023c
   - ucx
   - unicodedata2
   - urllib3
   - wcwidth
   - webencodings
+  - websocket-client
   - wheel
   - widgetsnbextension
-  - x264
+  - x264!164.3095
   - x265
   - xcb-util
   - xcb-util-image
@@ -496,21 +537,46 @@ dependencies:
   - yaml-cpp
   - zeromq
   - zfp
+  - zict
   - zipp
   - zlib
   - zlib-ng
   - zstandard
   - zstd
   - pip:
-      - anyio
-      - dbnomics
-      - exceptiongroup
-      - geonamescache
-      - h11
-      - httpcore
-      - httpx
-      - importlib-metadata
-      - pyarrow
-      - pyyaml
-      - sniffio
-      - stargazer
+      - accelerate=
+      - anyio=
+      - dbnomics=
+      - exceptiongroup=
+      - filelock=
+      - geonamescache=
+      - h11=
+      - httpcore=
+      - httpx=
+      - huggingface-hub=
+      - importlib-metadata=
+      - inquirerpy=
+      - isounidecode=
+      - nvidia-cublas-cu12=
+      - nvidia-cuda-cupti-cu12=
+      - nvidia-cuda-nvrtc-cu12=
+      - nvidia-cuda-runtime-cu12=
+      - nvidia-cudnn-cu12=
+      - nvidia-cufft-cu12=
+      - nvidia-curand-cu12=
+      - nvidia-cusolver-cu12=
+      - nvidia-cusparse-cu12=
+      - nvidia-nccl-cu12=
+      - nvidia-nvjitlink-cu12=
+      - nvidia-nvtx-cu12=
+      - pfzy=
+      - pyarrow=
+      - python-dotenv=
+      - safetensors=
+      - stargazer=
+      - tokenizers=
+      - torch=
+      - transformers=
+      - triton=
+      - typing-extensions=
+prefix: /lustre/work/client/users/gonzalezjj/.conda/envs/ReplicationDickens
