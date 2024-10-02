@@ -27,6 +27,35 @@ To use our notebooks, you can:
 * **(Easy - install and run on your computer)** Follow these [instructions](https://econgrowth.github.io/pages/Docker.html) to download and install Docker Desktop. The docker image for this project is `jjgecon/replication-dickens` and not `omerozak/econgrowth-binder`.
 * **(A bit more complex - needs installation and runs on your computer)** Clone this repository, and install our [environment](https://github.com/jjgecon/Replication_Dickens_2022/blob/main/environment.yml) using conda. (Instructions on how to do that can be found [here](https://econgrowth.github.io/pages/Install%20Anaconda.html))
 
+    **For Windows users**: You may need to install the packages using a virtual environment ([see here](https://medium.com/@amitrandive442/python-virtual-environments-101-understanding-the-basics-f52ab5e87717) for a blog that talks about it). Follow these steps to activate the virtual environment in Windows.
+
+    - Open the terminal and go to the replication directory
+    ```bash
+    cd ./YOUR_PATH/replication-package-ECIN-Jan-2024-0042
+    ```
+    - Make sure you Python 3.10 installed in your computer. Try the following command and if you get a different return install `conda` or `mamba`. 
+    ```bash
+        python --version
+        > Python 3.10
+    ```
+    - Create your virtual environment
+
+    ```bash
+    python -m venv ReplicationDickens
+    ```
+    - Once created you need to activate it
+    ```bash
+    ReplicationDickens\Scripts\activate
+    ```
+    - Install the packages found in `requirements.txt`
+    ```bash
+    pip install -r requirements.txt
+    ```
+    - Launch `Jupyter lab``
+    ```bash
+    jupyter lab
+    ```
+
 ## Recommended Approach [![](https://deepnote.com/buttons/launch-in-deepnote-small.svg)](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/Indexnotebook-5c552adf-775f-43ed-b469-14dea99636ad/notebook/Notebook%201-591adace2c954b4eb31edde693125493)
 
 Given its ease and speed, we suggest starting in [Deepnote](https://deepnote.com/workspace/replication-dickens-2022-ff5e06ca-d8fd-4344-b73c-7d07c01f9c63/project/Indexnotebook-5c552adf-775f-43ed-b469-14dea99636ad/notebook/Notebook%201-591adace2c954b4eb31edde693125493).
