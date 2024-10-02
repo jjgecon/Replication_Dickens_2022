@@ -51,7 +51,7 @@ To use our notebooks, you can:
     ```bash
     pip install -r requirements.txt
     ```
-    - Launch `Jupyter lab``
+    - Launch `Jupyter lab`
     ```bash
     jupyter lab
     ```
