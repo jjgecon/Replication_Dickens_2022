@@ -33,7 +33,7 @@ To use our notebooks, you can:
     ```bash
     cd ./YOUR_PATH/replication-package-ECIN-Jan-2024-0042
     ```
-    - Make sure you Python 3.10 installed in your computer. Try the following command and if you get a different return install `conda` or `mamba`. 
+    - Make sure Python 3.10 is installed on your computer. Try the following command and if you get a different return install `conda` or `mamba`. 
     ```bash
         python --version
         > Python 3.10
