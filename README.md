@@ -5,6 +5,11 @@
 
 This repository contains the paper, notebooks, data, and other material we created for our replication of [Dickens, A. (2021) Understanding ethnolinguistic differences: The roles of geography and trade, The Economic Journal 132(643), 953–980](https://doi.org/10.1093/ej/ueab065). It is part of a meta-analysis of replication issues in the social sciences.
 
+Suggested citation:
+
+```cite
+Gonzalez, Javier and Özak, Ömer. (2024) "Trade and Ethnolinguistic Differences: A Replication and Extension", Economic Inquiry, (Replication Package)
+```
 
 ## Abstract
 
