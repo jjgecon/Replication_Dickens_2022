@@ -8,7 +8,7 @@ This repository contains the paper, notebooks, data, and other material we creat
 Suggested citation:
 
 ```cite
-Gonzalez, Javier and Özak, Ömer. (2024) "Trade and Ethnolinguistic Differences: A Replication and Extension", Economic Inquiry, (Replication Package)
+Gonzalez, Javier and Özak, Ömer. (2025) "Trade and Ethnolinguistic Differences: A Replication and Extension", Economic Inquiry, (Replication Package)
 ```
 
 ## Abstract
